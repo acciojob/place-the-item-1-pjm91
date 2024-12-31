@@ -1,19 +1,34 @@
 
 /* Your CSS Code here. */
-/* Container holding the items */
-.holder {
-  display: flex;                /* Use flexbox to align children */
-  flex-wrap: wrap;              /* Allow items to wrap to the next row */
-  justify-content: space-between; /* Space between items in the row */
-  align-items: flex-start;      /* Align items to the start vertically */
-  width: 100%;                  /* Full width of the viewport */
+.container{
+ display:flex;
+ margin:10px;
+ flex-wrap: wrap;
 }
-
-/* Individual items */
-.item {
-  width:25px;
-  height:25px;
-  flex: 1 1 200px;              /* Items can grow, shrink, and have a base width of 200px */
-  margin: 10px;                 /* Add space around each item */
-  box-sizing: border-box;       /* Include padding and border in the width */
+.contain{
+  width:35px;
+  height:35px;
+  border: 2px solid ;
+  align-content: center;
+  text-align: center;
+  background-color: green;
+   margin:2px;
+}
+.contain1{
+  width:35px;
+  height:35px;
+  border: 2px solid ;
+  align-content: center;
+  text-align: center;
+  background-color: blue;
+   margin:2px;
+}
+.contain2{
+  width:35px;
+  height:35px;
+  border: 2px solid ;
+  align-content: center;
+  text-align: center;
+  background-color: red;
+   margin:2px;
 }
